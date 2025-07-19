@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "WeatherApp.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/WeatherApp.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WeatherApp.Logic.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "WeatherApp.Logic/1.0.0": {
+      "type": "project",
+      "path": "../WeatherApp.Logic/WeatherApp.Logic.csproj",
+      "msbuildProject": "../WeatherApp.Logic/WeatherApp.Logic.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "WeatherApp.Logic >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\mikeoca\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mikeoca\\Documents\\Summer Term 2025\\AdvDotNet\\WeatherAPI\\WeatherApp.Logic\\WeatherApp.Logic.csproj": {
+              "projectPath": "C:\\Users\\mikeoca\\Documents\\Summer Term 2025\\AdvDotNet\\WeatherAPI\\WeatherApp.Logic\\WeatherApp.Logic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

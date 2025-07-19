@@ -1,0 +1,7 @@
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Web\obj\Debug\net9.0\WeatherApp.Web.csproj.AssemblyReference.cache
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Web\obj\Debug\net9.0\WeatherApp.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Web\obj\Debug\net9.0\WeatherApp.Web.AssemblyInfoInputs.cache
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Web\obj\Debug\net9.0\WeatherApp.Web.AssemblyInfo.cs
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Web\obj\Debug\net9.0\WeatherApp.Web.csproj.CoreCompileInputs.cache
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Web\obj\Debug\net9.0\WeatherApp.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Web\obj\Debug\net9.0\WeatherApp.Web.sourcelink.json
