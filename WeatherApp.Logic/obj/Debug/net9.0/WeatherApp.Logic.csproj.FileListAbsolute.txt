@@ -1,0 +1,12 @@
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Logic\obj\Debug\net9.0\WeatherApp.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Logic\obj\Debug\net9.0\WeatherApp.Logic.AssemblyInfoInputs.cache
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Logic\obj\Debug\net9.0\WeatherApp.Logic.AssemblyInfo.cs
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Logic\obj\Debug\net9.0\WeatherApp.Logic.csproj.CoreCompileInputs.cache
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Logic\obj\Debug\net9.0\WeatherApp.Logic.sourcelink.json
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Logic\bin\Debug\net9.0\WeatherApp.Logic.deps.json
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Logic\bin\Debug\net9.0\WeatherApp.Logic.dll
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Logic\bin\Debug\net9.0\WeatherApp.Logic.pdb
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Logic\obj\Debug\net9.0\WeatherApp.Logic.dll
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Logic\obj\Debug\net9.0\refint\WeatherApp.Logic.dll
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Logic\obj\Debug\net9.0\WeatherApp.Logic.pdb
+C:\Users\mikeoca\Documents\Summer Term 2025\AdvDotNet\WeatherAPI\WeatherApp.Logic\obj\Debug\net9.0\ref\WeatherApp.Logic.dll
