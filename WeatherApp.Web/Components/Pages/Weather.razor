@@ -1,5 +1,6 @@
 ﻿@page "/weather"
 @inject WeatherApp.Logic.WeatherAPIService WeatherAPIService
+@rendermode InteractiveServer
 
 <PageTitle>Weather</PageTitle>
 
@@ -15,5 +16,14 @@
 </div>
 
 @code {
-    
+    private string cityName = "";
+    private string forecast = "";
+
+    private async Task GetWeather()
+    { 
+        if(!string.IsNullOrWhiteSpace(cityName))
+        { 
+            forecast = await WeatherAPIService.GetWeatherAsync(cityName);
+        }
+    }
 }

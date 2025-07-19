@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-builder.Services.AddSingleton<WeatherAPIService>();
+builder.Services.AddHttpClient<WeatherAPIService>();
 
 var app = builder.Build();
 
