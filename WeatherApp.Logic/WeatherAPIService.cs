@@ -21,7 +21,7 @@ public class WeatherAPIService
         
         var json = await _httpClient.GetStringAsync(url);
         Console.WriteLine(json);
-        return json;
+        return "success";
     }
     public double GetFahrenheit(double kelvin)
     {
