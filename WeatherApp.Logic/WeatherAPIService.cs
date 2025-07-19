@@ -21,7 +21,8 @@ public class WeatherAPIService
         
         var json = await _httpClient.GetStringAsync(url);
         Console.WriteLine(json);
-        return "success";
+        Forecast forecast = JsonSerializer.Deserialize<Forecast>(json);
+        return $"{json} / City Name: {forecast.name} / Description: {forecast.description} / Temp: {forecast.temp}";
     }
     public double GetFahrenheit(double kelvin)
     {
@@ -32,4 +33,14 @@ public class WeatherAPIService
     {
         return kelvin - 273.15;
     }
+
+    public class Forecast
+    {
+        public string name { get; set; }
+        public string description { get; set; }
+        
+        public double temp { get; set; }
+        
+    }
+    
 }
