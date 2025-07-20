@@ -17,12 +17,13 @@ public class WeatherAPIService
 
     public async Task<string> GetWeatherAsync(string cityName)
     {
+        string outputDescription = "";
         string url = $"https://api.openweathermap.org/data/2.5/weather?q={cityName}&appid={apiKey}";
         
         var json = await _httpClient.GetStringAsync(url);
         Console.WriteLine(json);
         Forecast forecast = JsonSerializer.Deserialize<Forecast>(json);
-        return $"{json} / City Name: {forecast.name} / Description: {forecast.description} / Temp: {forecast.temp}";
+        return json;
     }
     public double GetFahrenheit(double kelvin)
     {
@@ -35,12 +36,7 @@ public class WeatherAPIService
     }
 
     public class Forecast
-    {
+    { 
         public string name { get; set; }
-        public string description { get; set; }
-        
-        public double temp { get; set; }
-        
     }
-    
 }
