@@ -23,8 +23,11 @@ public class WeatherAPIService
         var json = await _httpClient.GetStringAsync(url);
         Console.WriteLine(json);
         WeatherResponse forecast = JsonSerializer.Deserialize<WeatherResponse>(json);
-        return $"City Name: {forecast.name} / Weather Description: {forecast.weather?[0].description}" +
-               $"Humidity {forecast.main?.humidity}%";
+        double temp = forecast.main.temp;
+        double tempF = Math.Round((temp - 273.15) * 9 / 5 + 32, 0);
+        double tempC = Math.Round(temp - 273.15, 0);
+        return $"City Name: {forecast.name} / Weather Description: {forecast.weather?[0].description} / " +
+               $"Humidity {forecast.main?.humidity}% / Temp: {tempF}F {tempC}C";
     }
     public double GetFahrenheit(double kelvin)
     {
